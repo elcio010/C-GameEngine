@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=C++ GameEngine
+PROJECTNAME=C-GameEngine
 
 # Active Configuration
 DEFAULTCONF=Debug

@@ -8,7 +8,13 @@
 #ifndef WINMAIN_H
 #define	WINMAIN_H
 
+//C Runtime Files
+#ifndef _WINDOW_
+    #include <Windows.h>
+#endif
 
+int _tmain(int argc, char* argv[]);
+int CALLBACK WinMain(HINSTANCE hinstance, HINSTANCE hPrevInstance, LPSTR 1pCmdLine, int nCmdShow);
 
 #endif	/* WINMAIN_H */
  

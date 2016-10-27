@@ -6,4 +6,23 @@
  */
 
 #include "WinMain.h"
+//Additional include files
 
+//#ifndef _STRING_H
+    //#include "string.h_
+//#endif
+//#ifndef _IOSTREAM_M
+    //#include "iostream.h"
+//#endif 
+
+#if defined (DEBUG) | defined(_DEBUG)
+int _tmain(int argc char* argv[])
+{
+    
+}
+#endif
+
+int WinMain(HINSTANCE hinstance, HINSTANCE hPrevInstance, LPSTR 1pCmdLine, int nCmdShow)
+{
+    
+}
